@@ -1,4 +1,4 @@
-#__author__ = 'mohamed'
+#__author__ = 'mohame samyd '
 # quick sort
 
 
