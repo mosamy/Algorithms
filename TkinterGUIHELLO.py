@@ -2,6 +2,8 @@ __author__ = 'mohamed'
 from Tkinter import *
 
 root = Tk()
+thetextbox = Entry(root)
+thetextbox.pack()
 thelabel = Label(root, text="hello")
 thelabel.pack()
 topFrame = Frame(root)
@@ -17,8 +19,8 @@ button4 = Button(bottomFrame, text="button4", fg="yellow")
 
 
 def printname(event):
-    print "Hello my name is Mohamed"
-
+    #print "Hello my name is Mohamed"
+    thetextbox.insert(0, "Hello my name is Mohamed")
 
 button1.bind("<Button-1>", printname)
 button1.pack(side=RIGHT)
