@@ -1,6 +1,7 @@
 __author__ = 'mohamed'
 from random import randint
 
+#build the board
 board = []
 
 for x in range(5):
@@ -24,8 +25,7 @@ ship_col = random_col(board)
 print ship_row
 print ship_col
 
-# Everything from here on should go in your for loop!
-# Be sure to indent four spaces!
+# give the user 3 turns
 for turn in range(4):
     
     guess_row = int(raw_input("Guess Row:"))
@@ -42,8 +42,11 @@ for turn in range(4):
         else:
             print "You missed my battleship!"
             board[guess_row][guess_col] = "X"
-        # Print (turn + 1) here!
+        
+        #print users turn
         print "Turn" , turn + 1
         print_board(board)
+    
+    # 3 strikes game over     
     if turn == 3:
         print "Game Over"
