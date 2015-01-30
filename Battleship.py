@@ -22,8 +22,8 @@ def random_col(board):
 
 ship_row = random_row(board)
 ship_col = random_col(board)
-print ship_row
-print ship_col
+#print ship_row
+#print ship_col
 
 # give the user 3 turns
 for turn in range(4):
@@ -44,7 +44,7 @@ for turn in range(4):
             board[guess_row][guess_col] = "X"
         
         #print users turn
-        print "Turn" , turn + 1
+        print "Turn", turn + 1
         print_board(board)
     
     # 3 strikes game over     
