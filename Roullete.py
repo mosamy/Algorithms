@@ -1,5 +1,6 @@
 __author__ = 'mohamed'
 
+#roulette
 from random import randint
 count = 0
 while count < 3:
