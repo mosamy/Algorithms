@@ -8,4 +8,3 @@ def remove_duplicates(lst):
         if itm not in newlst:
             newlst.append(itm)
     return newlst
-                
