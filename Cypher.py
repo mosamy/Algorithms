@@ -33,5 +33,9 @@ def decypherfile(sourcefile, destinationfile, secretkey):
     print 'source file cyphered = ' + sourcefile + '  destination file decyphered = ' + destinationfile
 
 
-cypherfile('test.txt', 'cypheredtest.txt', 'N@zim')
-decypherfile('cypheredtest.txt', 'decypheredtest.txt', 'N@zim')
+def main():
+    cypherfile('test.txt', 'cypheredtest.txt', 'N@zim')
+    decypherfile('cypheredtest.txt', 'decypheredtest.txt', 'N@zim')
+
+if __name__ == '__main__':
+    main()
