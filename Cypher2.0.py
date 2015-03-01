@@ -19,7 +19,7 @@ def cydecy(sourcefile, destinationfile, mykey):
 
 def main():
     cydecy("Mawlana.jpg", "Mawlana2.jpg",'N@zim')
-    cydecy("Mawlana2.jpg", "Mawlana3.jpg",'N@zim')
+    cydecy("Mawlana2.jpg", "Mawlana4.jpg",'N@zim')
 
 if __name__ == '__main__':
     main()
