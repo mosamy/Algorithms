@@ -1,5 +1,7 @@
 
 __author__ = 'mosamy'
+# added from Android 22
+
 
 # XOR encrytpion demo
 from itertools import cycle, izip
