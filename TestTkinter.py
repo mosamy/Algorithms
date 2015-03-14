@@ -1,4 +1,4 @@
-import  ArraySorter
+import ArraySorter
 from Tkinter import *
 
 

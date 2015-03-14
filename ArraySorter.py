@@ -1,13 +1,14 @@
 #__author__ = 'mohamed'
 # quick sort
 
-
+from sys import *
 
 def partition(my_list, start, end):
     length = len(my_list)
     pivot = my_list[start]
     left = start+1
     # Start outside the area to be partitioned
+
     right = end
     done = False
     while not done:
@@ -45,6 +46,7 @@ def main():
   my_list = [7, 2, 6, 5, 1, 29, 6, 4, 19, 11]
   sorted_list = quick_sort(my_list, 0,  len(my_list)-1)
   print(my_list)
+
 
 # Standard boilerplate to call the main() function to begin
 # the program.
